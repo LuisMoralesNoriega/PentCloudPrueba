@@ -74,7 +74,7 @@ public class ArchivoService implements IArchivoService{
         }
 		
 		ArchivoDTO res = new ArchivoDTO();
-		res.filename = this.ruta + "/" + name;
+		res.filename = this.ruta + "\\" + name;
 		res.text = contenido; 
 		
 		return res;
